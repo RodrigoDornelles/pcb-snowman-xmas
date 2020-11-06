@@ -7082,14 +7082,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="BUZER_HARMONY_1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PB0_(MOSI/DI/SDA/AIN0/OC0A/~OC1A/AREF/PCINT0)"/>
-<wire x1="71.12" y1="49.53" x2="83.82" y2="49.53" width="0.1524" layer="91"/>
-<label x="86.36" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="LS2" gate="G$1" pin="N"/>
 <wire x1="71.12" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 <label x="86.36" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"/>
+<wire x1="71.12" y1="44.45" x2="83.82" y2="44.45" width="0.1524" layer="91"/>
+<label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUZER_HARMONY_2" class="0">
@@ -7106,14 +7106,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="BUZER_HARMONY_3" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"/>
-<wire x1="71.12" y1="44.45" x2="83.82" y2="44.45" width="0.1524" layer="91"/>
-<label x="86.36" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="LS3" gate="G$1" pin="N"/>
 <wire x1="71.12" y1="-2.54" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
 <label x="86.36" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PB0_(MOSI/DI/SDA/AIN0/OC0A/~OC1A/AREF/PCINT0)"/>
+<wire x1="71.12" y1="49.53" x2="83.82" y2="49.53" width="0.1524" layer="91"/>
+<label x="86.36" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
