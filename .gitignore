@@ -7,3 +7,7 @@
 # Eagle Temp Files
 *.*\#*
 *.*#*
+
+# Plataform.IO Files
+.pio/
+.vscode/
