@@ -6,7 +6,7 @@ PCB Snowman Xmax
 | - | :- |
 
 ### Eletronic Circuit ###
-![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletric.png)
+![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic.png)
 
 ### PCB Xray ###
 ![xraypcb](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/xraypcb.png)
