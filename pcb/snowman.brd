@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -58,7 +58,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZG9ybmVsbGVz" projecturn="a.YnVzaW5lc3M6ZG9ybmVsbGVzI0QyMDIwMDkyMTMzNTEyMjUwMQ" f3durn="urn:adsk.wipprod:dm.lineage:aAmiCkyRRsuUkZbfu8LiSA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b67f47d1-5c48-4b23-81bb-c4c6a577f307" lastsyncedrevisionid="b67f47d1-5c48-4b23-81bb-c4c6a577f307" lastboardhashguid="5f63c95f-6738-3bd7-6285-b513d91ed3d5" lastpushedtime="2020-11-07T06:22:31Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZG9ybmVsbGVz" projecturn="a.YnVzaW5lc3M6ZG9ybmVsbGVzI0QyMDIwMDkyMTMzNTEyMjUwMQ" f3durn="urn:adsk.wipprod:dm.lineage:aAmiCkyRRsuUkZbfu8LiSA" pcbguid="" lastpulledtime="2020-11-08T01:55:15Z" lastsyncedchangeguid="" latestrevisionid="8296f6f7-6948-4492-98ea-658afd4d83b9" lastsyncedrevisionid="8296f6f7-6948-4492-98ea-658afd4d83b9" lastboardhashguid="7d178a2f-22fe-bdd4-7b77-fe5660eda639" lastpushedtime="2020-11-08T02:16:48Z" linktopcb3d="true"/>
 <plain>
 <polygon width="0.1" layer="21" grouprefs="EYES">
 <vertex x="46.31603125" y="108.894134375"/>
@@ -1341,10 +1341,6 @@
 <vertex x="53.91709375" y="105.8547375"/>
 <vertex x="53.835678125" y="105.8567125"/>
 </polygon>
-<wire x1="38.1" y1="90.17" x2="62.23" y2="90.17" width="0.2" layer="20" curve="-248.760689"/>
-<wire x1="72.39" y1="55.88" x2="27.94" y2="55.88" width="0.2" layer="20" curve="-280.388858"/>
-<wire x1="62.23" y1="90.17" x2="72.39" y2="55.88" width="0.2" layer="20" curve="-90"/>
-<wire x1="27.94" y1="55.88" x2="38.1" y2="90.17" width="0.2" layer="20" curve="-90"/>
 <circle x="50.165" y="98.425" radius="13.707765625" width="0.2" layer="21"/>
 <polygon width="0.1" layer="21" grouprefs="GRAVATA">
 <vertex x="36.872971875" y="87.068209375"/>
@@ -1883,6 +1879,20 @@
 </polygon>
 <wire x1="60.96" y1="90.17" x2="39.37" y2="90.17" width="0.2" layer="21" curve="-308.186984"/>
 <wire x1="71.755" y1="55.88" x2="28.575" y2="55.88" width="0.2" layer="21" curve="-281.346044"/>
+<wire x1="27.94" y1="55.88" x2="72.39" y2="2.54" width="0.2" layer="20" curve="180"/>
+<wire x1="72.39" y1="2.54" x2="74.6299" y2="4.5785" width="0.2" layer="20"/>
+<wire x1="74.6299" y1="4.5785" x2="72.5705" y2="55.7285" width="0.2" layer="20" curve="95.0001"/>
+<wire x1="72.5705" y1="55.7285" x2="72.39" y2="55.88" width="0.2" layer="20"/>
+<wire x1="72.39" y1="55.88" x2="73.357" y2="57.8629" width="0.2" layer="20"/>
+<wire x1="73.357" y1="57.8629" x2="64.1211" y2="89.0339" width="0.2" layer="20" curve="80"/>
+<wire x1="64.1211" y1="89.0339" x2="62.23" y2="90.17" width="0.2" layer="20"/>
+<wire x1="62.23" y1="90.17" x2="38.8654" y2="107.7" width="0.2" layer="20" curve="175"/>
+<wire x1="38.8654" y1="107.7" x2="38.1" y2="106.68" width="0.2" layer="20"/>
+<wire x1="38.1" y1="106.68" x2="37.5845" y2="90.9791" width="0.2" layer="20" curve="64.9999"/>
+<wire x1="37.5845" y1="90.9791" x2="38.1" y2="90.17" width="0.2" layer="20"/>
+<wire x1="38.1" y1="90.17" x2="36.2089" y2="89.0339" width="0.2" layer="20"/>
+<wire x1="36.2089" y1="89.0339" x2="26.973" y2="57.8629" width="0.2" layer="20" curve="80"/>
+<wire x1="26.973" y1="57.8629" x2="27.94" y2="55.88" width="0.2" layer="20"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -3392,7 +3402,7 @@ design rules under a new name.</description>
 <board_group name="GRAVATA"/>
 </groups>
 <elements>
-<element name="LS1" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" value="CMT-8530S-SMT" x="50.165" y="68.58" smashed="yes" rot="R180">
+<element name="LS1" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" override_package3d_urn="urn:adsk.eagle:package:24606864/2" override_package_urn="urn:adsk.eagle:footprint:24606865/1" value="CMT-8530S-SMT" x="50.165" y="68.58" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="27.305" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cmt-8530s-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="27.305" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="8.5 mm, 3.6 Vo-p, 90 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer" x="27.305" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3402,7 +3412,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="27.305" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CMT-8530S-SMT-TR/?ref=eda" x="27.305" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LS2" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" value="CMT-8530S-SMT" x="50.165" y="17.145" smashed="yes" rot="R180">
+<element name="LS2" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" override_package3d_urn="urn:adsk.eagle:package:24606841/2" override_package_urn="urn:adsk.eagle:footprint:24606842/1" value="CMT-8530S-SMT" x="50.165" y="17.145" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="10.795" y="79.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cmt-8530s-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="10.795" y="79.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="8.5 mm, 3.6 Vo-p, 90 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer" x="10.795" y="79.375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3412,7 +3422,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="10.795" y="79.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CMT-8530S-SMT-TR/?ref=eda" x="10.795" y="79.375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LS3" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" value="CMT-8530S-SMT" x="50.165" y="55.88" smashed="yes" rot="R180">
+<element name="LS3" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" override_package3d_urn="urn:adsk.eagle:package:24606832/3" override_package_urn="urn:adsk.eagle:footprint:24606833/1" value="CMT-8530S-SMT" x="50.165" y="55.88" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="-5.715" y="118.11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cmt-8530s-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-5.715" y="118.11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="8.5 mm, 3.6 Vo-p, 90 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer" x="-5.715" y="118.11" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3422,7 +3432,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-5.715" y="118.11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CMT-8530S-SMT-TR/?ref=eda" x="-5.715" y="118.11" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LS4" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" value="CMT-8530S-SMT" x="50.165" y="29.845" smashed="yes" rot="R180">
+<element name="LS4" library="CMT-8530S-SMT" package="CUI_CMT-8530S-SMT" override_package3d_urn="urn:adsk.eagle:package:24606839/2" override_package_urn="urn:adsk.eagle:footprint:24606840/1" value="CMT-8530S-SMT" x="50.165" y="29.845" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="27.305" y="107.315" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cmt-8530s-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="27.305" y="107.315" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="8.5 mm, 3.6 Vo-p, 90 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer" x="27.305" y="107.315" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3432,7 +3442,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="27.305" y="107.315" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CMT-8530S-SMT-TR/?ref=eda" x="27.305" y="107.315" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U1" library="ATTINY85-20PU" package="DIP254P762X533-8" value="ATTINY85-20PU" x="46.355" y="78.74" smashed="yes" rot="R270">
+<element name="U1" library="ATTINY85-20PU" package="DIP254P762X533-8" override_package3d_urn="urn:adsk.eagle:package:24606828/2" override_package_urn="urn:adsk.eagle:footprint:24606829/1" value="ATTINY85-20PU" x="46.355" y="78.74" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="41.275" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-PDIP " x="41.275" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Microchip" x="41.275" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3441,7 +3451,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="41.275" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ATTINY85-20PU/?ref=eda" x="41.275" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="" x="50.165" y="109.22" smashed="yes" rot="MR180">
+<element name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" override_package3d_urn="urn:adsk.eagle:package:24606878/2" override_package_urn="urn:adsk.eagle:footprint:22673/1" value="" x="50.165" y="109.22" smashed="yes" rot="MR180">
 <attribute name="POPULARITY" value="8" x="50.165" y="109.22" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="46.99" y="106.68" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -3485,7 +3495,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="36.83" y="31.75" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="40.64" y="24.13" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="50.165" y="97.155" smashed="yes" rot="R270">
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:24606873/2" override_package_urn="urn:adsk.eagle:footprint:15654/1" value="" x="50.165" y="97.155" smashed="yes" rot="R270">
 <attribute name="POPULARITY" value="97" x="50.165" y="97.155" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="48.514" y="95.25" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3546,7 +3556,7 @@ design rules under a new name.</description>
 <wire x1="61.595" y1="92.075" x2="60.325" y2="90.805" width="0.2" layer="16"/>
 <wire x1="60.325" y1="90.805" x2="60.325" y2="88.265" width="0.2" layer="16"/>
 <wire x1="60.325" y1="88.265" x2="61.595" y2="86.995" width="0.2" layer="16"/>
-<wire x1="61.595" y1="86.995" x2="61.595" y2="83.82" width="0.2" layer="16"/>
+<wire x1="61.595" y1="86.995" x2="61.595" y2="82.55" width="0.2" layer="16"/>
 <wire x1="61.595" y1="92.075" x2="61.595" y2="98.425" width="0.2" layer="16"/>
 <wire x1="61.595" y1="98.425" x2="60.96" y2="99.06" width="0.2" layer="16"/>
 <wire x1="51.435" y1="99.06" x2="50.165" y2="100.33" width="0.2" layer="16"/>
@@ -3555,7 +3565,6 @@ design rules under a new name.</description>
 <wire x1="53.975" y1="78.74" x2="53.975" y2="81.915" width="0.2" layer="16"/>
 <wire x1="53.975" y1="81.915" x2="54.61" y2="82.55" width="0.2" layer="16"/>
 <wire x1="54.61" y1="82.55" x2="61.595" y2="82.55" width="0.2" layer="16"/>
-<wire x1="61.595" y1="82.55" x2="61.595" y2="83.82" width="0.2" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="4"/>
@@ -3823,6 +3832,11 @@ packages will not be understood (or retained) with this version.
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
 will not be understood (or retained) with this version.
 </note>
 </compatibility>

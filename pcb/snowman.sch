@@ -6997,14 +6997,14 @@ CRAA-SLF</description>
 </class>
 </classes>
 <parts>
-<part name="LS1" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device=""/>
-<part name="LS2" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device=""/>
-<part name="LS3" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device=""/>
-<part name="LS4" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device=""/>
-<part name="U1" library="ATTINY85-20PU" deviceset="ATTINY85-20PU" device=""/>
+<part name="LS1" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:24606864/2" override_package_urn="urn:adsk.eagle:footprint:24606865/1"/>
+<part name="LS2" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:24606841/2" override_package_urn="urn:adsk.eagle:footprint:24606842/1"/>
+<part name="LS3" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:24606832/3" override_package_urn="urn:adsk.eagle:footprint:24606833/1"/>
+<part name="LS4" library="CMT-8530S-SMT" deviceset="CMT-8530S-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:24606839/2" override_package_urn="urn:adsk.eagle:footprint:24606840/1"/>
+<part name="U1" library="ATTINY85-20PU" deviceset="ATTINY85-20PU" device="" override_package3d_urn="urn:adsk.eagle:package:24606828/2" override_package_urn="urn:adsk.eagle:footprint:24606829/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1"/>
+<part name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" override_package3d_urn="urn:adsk.eagle:package:24606878/2" override_package_urn="urn:adsk.eagle:footprint:22673/1"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
@@ -7017,7 +7017,7 @@ CRAA-SLF</description>
 <part name="G2" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="CR-AA" device="" package3d_urn="urn:adsk.eagle:package:4582/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:24606873/2" override_package_urn="urn:adsk.eagle:footprint:15654/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7291,6 +7291,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
