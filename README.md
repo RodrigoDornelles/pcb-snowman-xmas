@@ -13,6 +13,9 @@
 | [GrabCad Potentiometer 3](https://grabcad.com/library/potentiometer-3) | autodesk 3d | added in the **Eagle** project for 3D view in the  **Fusion 360** |
 | [CUI Devices CMT-8530S-SMT-TR](https://www.cuidevices.com/product/resource/3dmodel/cmt-8530s-smt-tr) | autodesk 3d | added in the **Eagle** project for 3D view in the  **Fusion 360** |
 
+## Bill of Materials ##
+| # | Designator | Qty | Manufacturer | Mfg Part | Description | Footprint | Type | Notes |
+| - | :--------- | --- | :----------- | -------- | :---------- | :-------- | ---- | :---- |
 
 
 ## First Draft ##
