@@ -22,7 +22,7 @@
 | - | :--------- | --- | :----------- | -------- | :---------- | :-------- | ---- | :---- |
 | 1 | R1 | 1 |  |  | RES 10.0K OHM 0.25W PTH |  | PTH | |
 | 2 | R2,R3,R4,R5,R6,R7 | 6 |  |  | RES 111.0 OHM 0.25W 1% 0815 SMD | 0815 | SMD | |
-| 3 | LS1,LS2,LS3,LS4 | 4 | CUI Devices | CMT-8530S-SMT-TR | 8.5 mm 3.6 Vo-p 90 dB Surface Mount (SMT) Magnetic Audio Transducer Buzzer | | SMD | |
+| 3 | LS1,LS2,LS3,LS4 | 4 | CUI Devices | CMT-8530S-SMT-TR | 8.5 mm 3.6 Vo-p 90 dB Surface Mount (SMT) Magnetic Audio Transducer Buzzer | | SMT | |
 | 4 | U1 | 1 | Microchip | ATTINY85-20PU | 8-bit Microcontroller with In-System Programmable Flash | | PTH | |
 | 5 | LED1 | 1 | | | | | PTH | |
 | 6 | G1,G2 | 2 | | | | | PTH | |
