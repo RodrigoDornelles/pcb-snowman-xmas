@@ -1,14 +1,16 @@
 ![PCB Snowman Xmax](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/banner.png)
 
+![JULIALABS PCB DESIGN CHALLENGE](https://img.shields.io/badge/JuliaLabs%20PCB%20Design%20Challenge-in%20progress-lightgrey)
+[![version](https://img.shields.io/github/v/release/rodrigodornelles/pcb-snowman-xmas?sort=semver)](https://github.com/RodrigoDornelles/pcb-snowman-xmas/releases)
+[![license](https://img.shields.io/github/license/rodrigodornelles/pcb-snowman-xmas)](https://github.com/RodrigoDornelles/pcb-snowman-xmas/blob/master/LICENSE.txt)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a9735d4bfdf048999f5b794d47c6db3c)](https://www.codacy.com/gh/RodrigoDornelles/pcb-snowman-xmas/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RodrigoDornelles/pcb-snowman-xmas&amp;utm_campaign=Badge_Grade)
+
 > printed circuit board artistic badge with xmas theme for [@Juliallabs](https://github.com/juliallabs) (JuliaLabs) competition (2020/NOVEMBER) promoved by [PCBWAY](https://pcbway.com)
 
 ## About ##
-
 Musical snowman badge where all the electrical components are useful for decoration design, this PCB will play a complete Christmas music sound (melody and harmony) because of its 4 buzzers and it will also have a led pulse in a rhythmic way, as the hat rotates (knob pot) will increase the volume or turn off the badge.
 
-
 ## Requirements ##
-
 | Dependency | Platform | Description |
 | :--------- | -------- | :---------- |
 | [RodrigoDornelles/arduino-tone-pitch](https://github.com/RodrigoDornelles/arduino-tone-pitch) | arduino lib | improve the pitch tune of piezos |
@@ -37,7 +39,6 @@ Musical snowman badge where all the electrical components are useful for decorat
 
 ## Eletronic Circuit ##
 ![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic.png)
-
 
 ## 3D View ##
 | ![3d](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/snow3dhd.png) | 
