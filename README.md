@@ -38,7 +38,7 @@ Musical snowman badge where all the electrical components are useful for decorat
 | 7 | D1,D2,D3,D4 | 4 | | Diode SMD |
 
 ## Eletronic Circuit ##
-![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic.png)
+![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic_v2.png)
 
 ## 3D View ##
 | ![3d](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/snow3dhd.png) | 
