@@ -18,14 +18,15 @@
 | - | :- |
 
 ## Bill of Materials ##
-| # | Designator | Qty | Manufacturer | Mfg Part | Description | Footprint | Type | Notes |
-| - | :--------- | --- | :----------- | -------- | :---------- | :-------- | ---- | :---- |
-| 1 | R1 | 1 |  |  | RES 10.0K OHM 0.25W PTH |  | PTH | |
-| 2 | R2,R3,R4,R5,R6,R7 | 6 |  |  | RES 111.0 OHM 0.25W 1% 0815 SMD | 0815 | SMD | |
-| 3 | LS1,LS2,LS3,LS4 | 4 | CUI Devices | CMT-8530S-SMT-TR | 8.5 mm 3.6 Vo-p 90 dB Surface Mount (SMT) Magnetic Audio Transducer Buzzer | | SMT | |
-| 4 | U1 | 1 | Microchip | ATTINY85-20PU | 8-bit Microcontroller with In-System Programmable Flash | | PTH | |
-| 5 | LED1 | 1 | | | | | PTH | |
-| 6 | G1,G2 | 2 | | | | | PTH | |
+| # | Designator | Qty | Part Number | Description |
+| - | :--------- | --- | :---------- | :---------- | 
+| 1 | R1 | 1 | | RES 10.0K OHM 0.25W PTH |
+| 2 | R2,R3,R4,R5,R6,R7 | 6 |  | RES 111.0 OHM 0.25W 1% 0815 SMD |
+| 3 | LS1,LS2,LS3,LS4 | 4 | CMT-8530S-SMT-TR | 8.5 mm Magnetic Audio Transducer Passive Buzzer SMT  |
+| 4 | U1 | 1 | ATTINY85-20PU | 8bit AVR Microcontroller Programmable Flash PTH |
+| 5 | LED1 | 1 | | |
+| 6 | G1,G2 | 2 | | |
+| 7 | D1,D2,D3,D4 | 4 | | Diode SMD |
 
 ## Eletronic Circuit ##
 ![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic.png)
