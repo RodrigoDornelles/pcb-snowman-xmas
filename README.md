@@ -10,6 +10,8 @@
 ## About ##
 Musical snowman badge where all the electrical components are useful for decoration design, this PCB will play a complete Christmas music sound (melody and harmony) because of its 4 buzzers and it will also have a led pulse in a rhythmic way, as the hat rotates (knob pot) will increase the volume or turn off the badge.
 
+* [click here to view all images](https://github.com/RodrigoDornelles/pcb-snowman-xmas/blob/master/IMAGES.md)
+
 ## Requirements ##
 | Dependency | Platform | Description |
 | :--------- | -------- | :---------- |
