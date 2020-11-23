@@ -1,5 +1,12 @@
 ![PCB Snowman Xmax](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/banner.png)
 
+> printed circuit board artistic badge with xmas theme for [@Juliallabs](https://github.com/juliallabs) (JuliaLabs) competition (2020/NOVEMBER) promoved by [PCBWAY](https://pcbway.com)
+
+## About ##
+
+Musical snowman badge where all the electrical components are useful for decoration design, this PCB will play a complete Christmas music sound (melody and harmony) because of its 4 buzzers and it will also have a led pulse in a rhythmic way, as the hat rotates (knob pot) will increase the volume or turn off the badge.
+
+
 ## Requirements ##
 
 | Dependency | Platform | Description |
