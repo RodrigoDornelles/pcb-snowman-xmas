@@ -10,6 +10,8 @@
 ## About ##
 Musical snowman badge where all the electrical components are useful for decoration design, this PCB will play a complete Christmas music sound (melody and harmony) because of its 4 buzzers and it will also have a led pulse in a rhythmic way, as the hat rotates (knob pot) will increase the volume or turn off the badge.
 
+* [click here to view all images](https://github.com/RodrigoDornelles/pcb-snowman-xmas/blob/master/IMAGES.md)
+
 ## Requirements ##
 | Dependency | Platform | Description |
 | :--------- | -------- | :---------- |
@@ -29,11 +31,11 @@ Musical snowman badge where all the electrical components are useful for decorat
 ## Bill of Materials ##
 | # | Designator | Qty | Part Number | Description |
 | - | :--------- | --- | :---------- | :---------- | 
-| 1 | R1 | 1 | | RES 10.0K OHM 0.25W PTH |
-| 2 | R2,R3,R4,R5,R6,R7 | 6 |  | RES 111.0 OHM 0.25W 1% 0815 SMD |
+| 1 | R1 | 1 | WH148-1 10K L20 | RES POT 10.0K OHM 0.25W PTH |
+| 2 | R2,R3,R4,R5,R6,R7 | 6 | RND1550805S8F2400T5E | RES 110.0 OHM 0.125W 1% 0815 SMD |
 | 3 | LS1,LS2,LS3,LS4 | 4 | CMT-8530S-SMT-TR | 8.5 mm Magnetic Audio Transducer Passive Buzzer SMT  |
 | 4 | U1 | 1 | ATTINY85-20PU | 8bit AVR Microcontroller Programmable Flash PTH |
-| 5 | LED1 | 1 | | |
+| 5 | LED1 | 1 | L-424HDT | 2.25 V Red LED 3mm Cylindrical |
 | 6 | G1,G2 | 2 | | |
 | 7 | D1,D2,D3,D4 | 4 | | Diode SMD |
 
