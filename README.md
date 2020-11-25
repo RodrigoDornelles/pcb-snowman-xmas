@@ -36,8 +36,8 @@ Musical snowman badge where all the electrical components are useful for decorat
 | 3 | LS1,LS2,LS3,LS4 | 4 | CMT-8530S-SMT-TR | 8.5 mm Magnetic Audio Transducer Passive Buzzer SMT  |
 | 4 | U1 | 1 | ATTINY85-20PU | 8bit AVR Microcontroller Programmable Flash PTH |
 | 5 | LED1 | 1 | L-424HDT | 2.25 V Red LED 3mm Cylindrical |
-| 6 | G1,G2 | 2 | | |
-| 7 | D1,D2,D3,D4 | 4 | | Diode SMD |
+| 6 | ???| ? | | Battery Holder |
+| 7 | D1,D2,D3,D4 | 4 | SMA-DO214AC | Diode SMD |
 
 ## Eletronic Circuit ##
 ![eletric](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/eletronic_v2.png)
