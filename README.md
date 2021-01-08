@@ -1,7 +1,8 @@
 ![PCB Snowman Xmax](https://github.com/RodrigoDornelles/pcb-snowman-xmas/raw/master/images/banner.png)
 
-![JULIALABS PCB DESIGN CHALLENGE](https://img.shields.io/badge/JuliaLabs%20PCB%20Design%20Challenge-in%20progress-lightgrey)
 [![version](https://img.shields.io/github/v/release/rodrigodornelles/pcb-snowman-xmas?sort=semver)](https://github.com/RodrigoDornelles/pcb-snowman-xmas/releases)
+[![JULIALABS PCB CHALLENGE](https://img.shields.io/badge/JuliaLabs%20PCB%20Challenge-defeated-red)](https://youtu.be/H6DWv6_Ezs4)
+[![PCBWAY Christmas CHALLENGE](https://img.shields.io/badge/PCBWAY%20Christmas%20Challenge-won%202sd%20place-blue)](https://www.pcbway.com/blog/Activities/Meet_the_Winners_of_Christmas_Projects.html)
 [![license](https://img.shields.io/github/license/rodrigodornelles/pcb-snowman-xmas)](https://github.com/RodrigoDornelles/pcb-snowman-xmas/blob/master/LICENSE.txt)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a9735d4bfdf048999f5b794d47c6db3c)](https://www.codacy.com/gh/RodrigoDornelles/pcb-snowman-xmas/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RodrigoDornelles/pcb-snowman-xmas&amp;utm_campaign=Badge_Grade)
 
